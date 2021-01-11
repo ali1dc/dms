@@ -1,0 +1,29 @@
+---
+endpoints:
+  - name: endpoint-1
+    account: DEV
+    environment: dev
+    database:
+      host: db_host
+      port: db_port
+      user: db_user
+      password: db_password
+      name: db_name
+    engine: postgres
+    ssl_mode: verify-full
+    types:
+      - target
+
+  - name: endpoint-2
+    account: DEV
+    environment: dev
+    database:
+      host: db_host
+      port: db_port
+      user: db_user
+      password: db_password
+      name: db_name
+    engine: postgres
+    ssl_mode: verify-full
+    types:
+      - source
